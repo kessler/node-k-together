@@ -6,7 +6,7 @@ const Together = require('./index.js')
 describe('Together', () => {
 	it('runs a bunch of functions in parallel', (done) => {
 		let tick = 0
-		let t = new Together([fn1, fn2])
+		let t = Together.create([fn1, fn2])
 
 		t.run((errors, state) => {
 			expect(tick).to.be.gt(0)

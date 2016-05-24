@@ -11,6 +11,10 @@ class Together {
 		this._errors = []
 	}
 
+	static create(functions) {
+		return new Together(functions)
+	}
+
 	run(state, userCallback) {
 		debug('run()')
 

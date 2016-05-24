@@ -12,10 +12,6 @@
 const kTogether = require('k-together')
 ```
 
-## api
-
-### `main(arg[,opts])`
-
 ## install
 
 With [npm](https://npmjs.org) do:
