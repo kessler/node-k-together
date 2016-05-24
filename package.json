@@ -1,6 +1,6 @@
 {
   "name": "k-together",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Executes a bunch of callback styled functions in parallel",
   "license": "MIT",
   "author": {
