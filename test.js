@@ -9,6 +9,7 @@ describe('Together', () => {
 		let t = new Together([fn1, fn2])
 
 		t.run((errors, state) => {
+			expect(tick).to.be.gt(0)
 			expect(state).to.have.property('fn1', 0)
 			expect(state).to.have.property('fn2', 0)
 			done()
