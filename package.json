@@ -1,0 +1,31 @@
+{
+  "name": "k-together",
+  "version": "0.0.1",
+  "description": "Executes a bunch of callback styled functions in parallel",
+  "license": "MIT",
+  "author": {
+    "name": "yaniv kessler",
+    "email": "yanivk@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.5.2"
+  },
+  "keywords": [
+    "async",
+    "parallel"
+  ],
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  },
+  "repository": "kessler/node-k-together",
+  "bugs": "https://github.com/kessler/node-k-together/issues",
+  "homepage": "https://github.com/kessler/node-k-together"
+}
